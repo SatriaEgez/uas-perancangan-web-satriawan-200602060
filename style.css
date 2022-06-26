@@ -17,3 +17,9 @@ section{
 #gallery .row > * {
     padding: 0;
 }
+nav{
+    background: #000;
+}
+footer{
+    background: #000;
+}

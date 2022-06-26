@@ -72,14 +72,23 @@
           </hr>
         </div>
       </div>
-      <div class="row justify-content-center fs-5 text-center ">
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid sed aspernatur alias ut quidem eum et
-            dolore quo voluptas.</p>
+      <div class="row justify-content-center fs-5 text-center mt-3">
+        <div class="col-md-5">
+          <p>
+            Hi, I'm Satria I'm a student of Hamzanwasdi University. I majored in Informatics Engineering,
+            There I learned a lot of programming languages.
+            I usually use mostly PHP, like Laravel. I am interested in programming since high school,
+            I studied software engineering at a private school in Lombok, and started writing program code
+            my first there.
+          </p>
         </div>
-        <div class="col-md-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae cum amet dolore architecto
-            adipisci, consequuntur nobis voluptates totam necessitatibus laboriosam facilis magnam debitis inventore?
+        <div class="col-md-5">
+          <p>
+            Hai, saya Satria Saya seorang Mahasiswa Universitas Hamzanwasdi. Saya Mengambil Jurusan Teknik Informatika,
+            disitu saya banyak belajar bahasa pemrograman.
+            Saya biasanya menggunakan sebagian besar PHP, seperti Laravel. Saya tertarik dengan pemrograman sejak SMA,
+            saya belajar software engineering di salah satu sekolah swasta di Lombok, dan mulai menulis kode program
+            pertama saya di sana.
           </p>
         </div>
       </div>
@@ -93,7 +102,7 @@
   <!-- Akhir About -->
 
   <!-- project -->
-  <section id="projects">
+  <section id="projects" style="background-color: #e2edff">
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col">
@@ -102,38 +111,33 @@
           </hr>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/project/1.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card">
+            <img src="img/project/1.jpeg" class="card-img-top" alt="project 1" />
             <div class="card-body">
-              <p class="card-text text-center">Project 1</p>
+              <p class="card-text">Project 1.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/project/2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card">
+            <img src="img/project/2.jpg" class="card-img-top" alt="project 2" />
             <div class="card-body">
-              <p class="card-text text-center">Project 2.</p>
+              <p class="card-text">Project 2.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/project/3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card">
+            <img src="img/project/3.jpg" class="card-img-top" alt="project 3" />
             <div class="card-body">
-              <p class="card-text text-center">Project 3</p>
+              <p class="card-text">Project 3.</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#e2edff" fill-opacity="1"
-        d="M0,224L30,197.3C60,171,120,117,180,112C240,107,300,149,360,181.3C420,213,480,235,540,229.3C600,224,660,192,720,197.3C780,203,840,245,900,240C960,235,1020,181,1080,138.7C1140,96,1200,64,1260,85.3C1320,107,1380,181,1410,218.7L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
-      </path>
-    </svg>
+
+
   </section>
   <!-- akhir project -->
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -155,7 +159,7 @@
       <div class="row justify-content-center mb-3">
         <div class="col-md-8">
 
-          <div class="alert alert-succes alert-dismissible fade show my-alert d-none" role="alert">
+          <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
             <strong>Terimakasih!</strong> Pesan Anda Sudah Kami Terima.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
@@ -205,51 +209,32 @@
     crossorigin="anonymous"></script>
 
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAbSIoE0Q5C2xEJYpvdn9_Nl04iPjE3IB6H_0qDhCB3j3x4BnLcPJAlFpqgqhrovBZYw/exec'
-    const form = document.forms['wpu-contact-form']
-    const btnKirim = document.querySelector['.btn-kirim']
-    const btnLoading = document.querySelector['.btn-loading']
-    const myAlert = document.querySelector['.my-alert']
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzAbSIoE0Q5C2xEJYpvdn9_Nl04iPjE3IB6H_0qDhCB3j3x4BnLcPJAlFpqgqhrovBZYw/exec";
+    const form = document.forms["wpu-contact-form"];
+    const btnKirim = document.querySelector(".btn-kirim");
+    const btnLoading = document.querySelector(".btn-loading");
+    const myAlert = document.querySelector(".my-alert");
 
-    form.addEventListener('submit', (e) => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          // form reset
-          form.reset()
-          console.log('Success!', response)
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
-  <!-- <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAbSIoE0Q5C2xEJYpvdn9_Nl04iPjE3IB6H_0qDhCB3j3x4BnLcPJAlFpqgqhrovBZYw/exec';
-    const form = document.forms['wpu-contact-form'];
-    const btnKirim = document.querySelector['.btn-kirim'];
-    const btnLoading = document.querySelector['.btn-loading'];
-    const myAlert = document.querySelector['.my-alert'];
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      // ketika tombol submit diklik
-      btnLoading.classList.toggle('d-none');
-      btnKirim.classList.toggle('d-none');
-
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          // tampilkan tombol loading, hilangkan tombol kirim 
-          btnLoading.classList.toggle('d-none');
-          btnKirim.classList.toggle('d-none');
-          // tampilkan alert 
-          myAlert.classList.toggle('d-none');
-          // form reset
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      // ketika tombol submit
+      // tampilan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle("d-none");
+      btnKirim.classList.toggle("d-none");
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          // tampilkan tombol kirim, hilangkan tombol loading
+          btnLoading.classList.toggle("d-none");
+          btnKirim.classList.toggle("d-none");
+          // tampilkan alert
+          myAlert.classList.toggle("d-none");
+          // reset formnya
           form.reset();
-          console.log('Success!', response);
+          console.log("Success!", response);
         })
-        .catch(error => console.error('Error!', error.message));
+        .catch((error) => console.error("Error!", error.message));
     });
-  </script> -->
+  </script>
 </body>
 
 </html>
